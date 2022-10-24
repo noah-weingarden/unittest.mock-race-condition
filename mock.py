@@ -35,12 +35,12 @@ from types import CodeType, ModuleType, MethodType
 from unittest.util import safe_repr
 from functools import wraps, partial
 
-# START CHANGES
+# CHANGES START
 import logging
 from events import main_event, test_event
 
 LOGGER = logging.getLogger(__name__)
-# END CHANGES
+# CHANGES END
 
 
 class InvalidSpecError(Exception):
