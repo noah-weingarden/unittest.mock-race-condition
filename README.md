@@ -1,4 +1,4 @@
-This repo is a minimal reproducible example of a race condition in `unittest.mock`. See [GitHub issue link here].
+This repo is a minimal reproducible example of a race condition in `unittest.mock`. See [this GitHub issue](https://github.com/python/cpython/issues/98624).
 
 To demonstrate, run `python3 mre.py`. You should see output like this every time you run the test:
 
